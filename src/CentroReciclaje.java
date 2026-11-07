@@ -3,7 +3,7 @@ public class CentroReciclaje {
     Scanner teclado = new Scanner(System.in);
     public static int PesoPermitido(int PesoIngresado){
         int PesoPer;
-        PesoIngresado= 
+        PesoIngresado= teclado.nextInt();
         if (PesoIngresado>=3 && PesoIngresado<=60){
             PesoPer=PesoIngresado;
         }
