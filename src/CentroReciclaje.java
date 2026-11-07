@@ -3,16 +3,20 @@ public class CentroReciclaje {
 
    
     public static int PesoPermitido(int PesoIngresado){
-       int PesoPermitido=0;
+   
 
-    while (PesoIngresado>=3 && PesoIngresado<=60) {
-        PesoIngresado=PesoPermitido;
+    while (PesoIngresado>=5 && PesoIngresado<=200) {
+        int PesoPermitido=PesoIngresado;
 
-       if (PesoIngresado<3 || PesoIngresado>60){
+       if (PesoIngresado<5 || PesoIngresado>200){
         System.out.println("valor fuera del rango");
+        
        }
+       
     }
-       return PesoPermitido;
+    return PesoPermitido;
+
+       
     }
 
     public static int Cantidad(int PesoPermitido){
